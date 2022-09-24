@@ -1,5 +1,5 @@
 function App() {
-	return <></>;
+	return <div className="w-screen h-screen"></div>;
 }
 
 export default App;
