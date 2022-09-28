@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import BasicSearch from "../components/BasicSearch";
+import BasicSearch from "../components/search/BasicSearch";
 import Title from "../components/search/components/Title";
 
 const Home: NextPage = () => {
