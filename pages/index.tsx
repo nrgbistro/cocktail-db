@@ -4,7 +4,7 @@ import Title from "../components/search/components/Title";
 
 const Home: NextPage = () => {
 	return (
-		<div className="w-screen h-[85vh] flex flex-col justify-center items-center">
+		<div className="w-screen h-[85vh] flex flex-col gap-16 justify-center items-center">
 			<Title />
 			<BasicSearch />
 		</div>
