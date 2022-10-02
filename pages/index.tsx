@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
-import BasicSearch from "../components/search/BasicSearch";
-import Title from "../components/search/components/Title";
+import ThemeChanger from "../components/ThemeChanger";
+import Search from "./Search";
 
 const Home: NextPage = () => {
 	return (
-		<div className="w-screen h-[85vh] flex flex-col gap-16 justify-center items-center">
-			<Title />
-			<BasicSearch />
+		<div className="w-screen h-screen">
+			<Search />
+			<ThemeChanger />
 		</div>
 	);
 };
